@@ -1,8 +1,12 @@
-num1 = int(input("enter a number"))
-num2 = int(input("enter a number"))
+num1 = int(input("Enter The Number "))
+num2 = int(input("Enter The Number "))
 if num1 > num2:
-    print("num1 bigger than num2") 
+    print("num1 Is bigger ")
 elif num1 < num2:
-    print("num2 is bigger than num1")
+    print("num2 is bigger ")
+elif num1 < 0:
+    print("num1 is negative ")
+elif num2 < 0:
+    print("num2 is negative")
 else:
-    print ("number incorrectly ")
+    print("number is incorect")
